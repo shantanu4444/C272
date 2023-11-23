@@ -26,20 +26,20 @@ $(function () {
     function syncDrawingData(data) {
         document.getElementById('text_area').value = data.textarea_value
 
-        if(data.textarea_color == "white"){
-            document.getElementById("text_area").style.backgroundColor = "white"
+        if(data.textarea_color == "#FEFAE0"){
+            document.getElementById("text_area").style.backgroundColor = "#FEFAE0"
         }
 
-        if(data.textarea_color == "red"){
-            document.getElementById("text_area").style.backgroundColor = "red"
+        if(data.textarea_color == "#FA7070"){
+            document.getElementById("text_area").style.backgroundColor = "#FA7070"
         }
 
-        if(data.textarea_color == "yellow"){
-            document.getElementById("text_area").style.backgroundColor = "yellow"
+        if(data.textarea_color == "#EEF296"){
+            document.getElementById("text_area").style.backgroundColor = "#EEF296"
         }
 
-        if(data.textarea_color == "green"){
-            document.getElementById("text_area").style.backgroundColor = "green"
+        if(data.textarea_color == "#9ADE7B"){
+            document.getElementById("text_area").style.backgroundColor = "#9ADE7B"
         }
 
     }
@@ -68,17 +68,17 @@ $(function () {
         console.log(selected_color)
         
         if(selected_color == "white"){
-            background_color = "white"
+            background_color = "#FEFAE0"
         }
 
         if(selected_color == "red"){
-            background_color = "red"
+            background_color = "#FA7070"
         }
         if(selected_color == "yellow"){
-            background_color = "yellow"
+            background_color = "#EEF296"
         }
         if(selected_color == "green"){
-            background_color = "green"
+            background_color = "#9ADE7B"
         }
 
     }
